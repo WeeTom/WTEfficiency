@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F73B23331952B7D70089A4D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73B23321952B7D70089A4D7 /* Foundation.framework */; };
+		F73B23351952B7D70089A4D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73B23341952B7D70089A4D7 /* CoreGraphics.framework */; };
+		F73B23371952B7D70089A4D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73B23361952B7D70089A4D7 /* UIKit.framework */; };
+		F73B233D1952B7D70089A4D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F73B233B1952B7D70089A4D7 /* InfoPlist.strings */; };
+		F73B233F1952B7D70089A4D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F73B233E1952B7D70089A4D7 /* main.m */; };
+		F73B23431952B7D70089A4D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F73B23421952B7D70089A4D7 /* AppDelegate.m */; };
+		F73B23461952B7D70089A4D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73B23441952B7D70089A4D7 /* Main.storyboard */; };
+		F73B23491952B7D70089A4D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73B23481952B7D70089A4D7 /* ViewController.m */; };
+		F73B234B1952B7D70089A4D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73B234A1952B7D70089A4D7 /* Images.xcassets */; };
+		F73B23521952B7D70089A4D7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73B23511952B7D70089A4D7 /* XCTest.framework */; };
+		F73B23531952B7D70089A4D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73B23321952B7D70089A4D7 /* Foundation.framework */; };
+		F73B23541952B7D70089A4D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73B23361952B7D70089A4D7 /* UIKit.framework */; };
+		F73B235C1952B7D70089A4D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F73B235A1952B7D70089A4D7 /* InfoPlist.strings */; };
+		F73B235E1952B7D70089A4D7 /* WTEDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F73B235D1952B7D70089A4D7 /* WTEDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F73B23551952B7D70089A4D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F73B23271952B7D70089A4D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F73B232E1952B7D70089A4D7;
+			remoteInfo = WTEDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F73B232F1952B7D70089A4D7 /* WTEDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTEDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73B23321952B7D70089A4D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F73B23341952B7D70089A4D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F73B23361952B7D70089A4D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F73B233A1952B7D70089A4D7 /* WTEDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WTEDemo-Info.plist"; sourceTree = "<group>"; };
+		F73B233C1952B7D70089A4D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F73B233E1952B7D70089A4D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F73B23401952B7D70089A4D7 /* WTEDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WTEDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F73B23411952B7D70089A4D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F73B23421952B7D70089A4D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F73B23451952B7D70089A4D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F73B23471952B7D70089A4D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F73B23481952B7D70089A4D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F73B234A1952B7D70089A4D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F73B23501952B7D70089A4D7 /* WTEDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTEDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73B23511952B7D70089A4D7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F73B23591952B7D70089A4D7 /* WTEDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WTEDemoTests-Info.plist"; sourceTree = "<group>"; };
+		F73B235B1952B7D70089A4D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F73B235D1952B7D70089A4D7 /* WTEDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTEDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F73B232C1952B7D70089A4D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73B23351952B7D70089A4D7 /* CoreGraphics.framework in Frameworks */,
+				F73B23371952B7D70089A4D7 /* UIKit.framework in Frameworks */,
+				F73B23331952B7D70089A4D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73B234D1952B7D70089A4D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73B23521952B7D70089A4D7 /* XCTest.framework in Frameworks */,
+				F73B23541952B7D70089A4D7 /* UIKit.framework in Frameworks */,
+				F73B23531952B7D70089A4D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F73B23261952B7D70089A4D7 = {
+			isa = PBXGroup;
+			children = (
+				F73B23381952B7D70089A4D7 /* WTEDemo */,
+				F73B23571952B7D70089A4D7 /* WTEDemoTests */,
+				F73B23311952B7D70089A4D7 /* Frameworks */,
+				F73B23301952B7D70089A4D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F73B23301952B7D70089A4D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F73B232F1952B7D70089A4D7 /* WTEDemo.app */,
+				F73B23501952B7D70089A4D7 /* WTEDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F73B23311952B7D70089A4D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F73B23321952B7D70089A4D7 /* Foundation.framework */,
+				F73B23341952B7D70089A4D7 /* CoreGraphics.framework */,
+				F73B23361952B7D70089A4D7 /* UIKit.framework */,
+				F73B23511952B7D70089A4D7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F73B23381952B7D70089A4D7 /* WTEDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F73B23411952B7D70089A4D7 /* AppDelegate.h */,
+				F73B23421952B7D70089A4D7 /* AppDelegate.m */,
+				F73B23441952B7D70089A4D7 /* Main.storyboard */,
+				F73B23471952B7D70089A4D7 /* ViewController.h */,
+				F73B23481952B7D70089A4D7 /* ViewController.m */,
+				F73B234A1952B7D70089A4D7 /* Images.xcassets */,
+				F73B23391952B7D70089A4D7 /* Supporting Files */,
+			);
+			path = WTEDemo;
+			sourceTree = "<group>";
+		};
+		F73B23391952B7D70089A4D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F73B233A1952B7D70089A4D7 /* WTEDemo-Info.plist */,
+				F73B233B1952B7D70089A4D7 /* InfoPlist.strings */,
+				F73B233E1952B7D70089A4D7 /* main.m */,
+				F73B23401952B7D70089A4D7 /* WTEDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F73B23571952B7D70089A4D7 /* WTEDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F73B235D1952B7D70089A4D7 /* WTEDemoTests.m */,
+				F73B23581952B7D70089A4D7 /* Supporting Files */,
+			);
+			path = WTEDemoTests;
+			sourceTree = "<group>";
+		};
+		F73B23581952B7D70089A4D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F73B23591952B7D70089A4D7 /* WTEDemoTests-Info.plist */,
+				F73B235A1952B7D70089A4D7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F73B232E1952B7D70089A4D7 /* WTEDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F73B23611952B7D70089A4D7 /* Build configuration list for PBXNativeTarget "WTEDemo" */;
+			buildPhases = (
+				F73B232B1952B7D70089A4D7 /* Sources */,
+				F73B232C1952B7D70089A4D7 /* Frameworks */,
+				F73B232D1952B7D70089A4D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTEDemo;
+			productName = WTEDemo;
+			productReference = F73B232F1952B7D70089A4D7 /* WTEDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F73B234F1952B7D70089A4D7 /* WTEDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F73B23641952B7D70089A4D7 /* Build configuration list for PBXNativeTarget "WTEDemoTests" */;
+			buildPhases = (
+				F73B234C1952B7D70089A4D7 /* Sources */,
+				F73B234D1952B7D70089A4D7 /* Frameworks */,
+				F73B234E1952B7D70089A4D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F73B23561952B7D70089A4D7 /* PBXTargetDependency */,
+			);
+			name = WTEDemoTests;
+			productName = WTEDemoTests;
+			productReference = F73B23501952B7D70089A4D7 /* WTEDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F73B23271952B7D70089A4D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = WeeTom;
+				TargetAttributes = {
+					F73B234F1952B7D70089A4D7 = {
+						TestTargetID = F73B232E1952B7D70089A4D7;
+					};
+				};
+			};
+			buildConfigurationList = F73B232A1952B7D70089A4D7 /* Build configuration list for PBXProject "WTEDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F73B23261952B7D70089A4D7;
+			productRefGroup = F73B23301952B7D70089A4D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F73B232E1952B7D70089A4D7 /* WTEDemo */,
+				F73B234F1952B7D70089A4D7 /* WTEDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F73B232D1952B7D70089A4D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73B234B1952B7D70089A4D7 /* Images.xcassets in Resources */,
+				F73B233D1952B7D70089A4D7 /* InfoPlist.strings in Resources */,
+				F73B23461952B7D70089A4D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73B234E1952B7D70089A4D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73B235C1952B7D70089A4D7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F73B232B1952B7D70089A4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73B23491952B7D70089A4D7 /* ViewController.m in Sources */,
+				F73B23431952B7D70089A4D7 /* AppDelegate.m in Sources */,
+				F73B233F1952B7D70089A4D7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73B234C1952B7D70089A4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73B235E1952B7D70089A4D7 /* WTEDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F73B23561952B7D70089A4D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F73B232E1952B7D70089A4D7 /* WTEDemo */;
+			targetProxy = F73B23551952B7D70089A4D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F73B233B1952B7D70089A4D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F73B233C1952B7D70089A4D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F73B23441952B7D70089A4D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F73B23451952B7D70089A4D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F73B235A1952B7D70089A4D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F73B235B1952B7D70089A4D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F73B235F1952B7D70089A4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F73B23601952B7D70089A4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F73B23621952B7D70089A4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WTEDemo/WTEDemo-Prefix.pch";
+				INFOPLIST_FILE = "WTEDemo/WTEDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F73B23631952B7D70089A4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WTEDemo/WTEDemo-Prefix.pch";
+				INFOPLIST_FILE = "WTEDemo/WTEDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F73B23651952B7D70089A4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WTEDemo.app/WTEDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WTEDemo/WTEDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WTEDemoTests/WTEDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F73B23661952B7D70089A4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WTEDemo.app/WTEDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WTEDemo/WTEDemo-Prefix.pch";
+				INFOPLIST_FILE = "WTEDemoTests/WTEDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F73B232A1952B7D70089A4D7 /* Build configuration list for PBXProject "WTEDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73B235F1952B7D70089A4D7 /* Debug */,
+				F73B23601952B7D70089A4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F73B23611952B7D70089A4D7 /* Build configuration list for PBXNativeTarget "WTEDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73B23621952B7D70089A4D7 /* Debug */,
+				F73B23631952B7D70089A4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F73B23641952B7D70089A4D7 /* Build configuration list for PBXNativeTarget "WTEDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73B23651952B7D70089A4D7 /* Debug */,
+				F73B23661952B7D70089A4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F73B23271952B7D70089A4D7 /* Project object */;
+}
