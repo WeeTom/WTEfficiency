@@ -21,6 +21,8 @@
 		F73B23541952B7D70089A4D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73B23361952B7D70089A4D7 /* UIKit.framework */; };
 		F73B235C1952B7D70089A4D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F73B235A1952B7D70089A4D7 /* InfoPlist.strings */; };
 		F73B235E1952B7D70089A4D7 /* WTEDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F73B235D1952B7D70089A4D7 /* WTEDemoTests.m */; };
+		F73B23751952B9710089A4D7 /* NSArray+WTE.m in Sources */ = {isa = PBXBuildFile; fileRef = F73B23741952B9710089A4D7 /* NSArray+WTE.m */; };
+		F73B23791952BB900089A4D7 /* UIViewController+WTE.m in Sources */ = {isa = PBXBuildFile; fileRef = F73B23781952BB900089A4D7 /* UIViewController+WTE.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,11 @@
 		F73B23591952B7D70089A4D7 /* WTEDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WTEDemoTests-Info.plist"; sourceTree = "<group>"; };
 		F73B235B1952B7D70089A4D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F73B235D1952B7D70089A4D7 /* WTEDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTEDemoTests.m; sourceTree = "<group>"; };
+		F73B23731952B9710089A4D7 /* NSArray+WTE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+WTE.h"; sourceTree = "<group>"; };
+		F73B23741952B9710089A4D7 /* NSArray+WTE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WTE.m"; sourceTree = "<group>"; };
+		F73B23771952BB900089A4D7 /* UIViewController+WTE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WTE.h"; sourceTree = "<group>"; };
+		F73B23781952BB900089A4D7 /* UIViewController+WTE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WTE.m"; sourceTree = "<group>"; };
+		F73B237A1952BBD20089A4D7 /* WTEMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTEMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +89,7 @@
 		F73B23261952B7D70089A4D7 = {
 			isa = PBXGroup;
 			children = (
+				F73B23711952B9710089A4D7 /* WTEfficiencyClass */,
 				F73B23381952B7D70089A4D7 /* WTEDemo */,
 				F73B23571952B7D70089A4D7 /* WTEDemoTests */,
 				F73B23311952B7D70089A4D7 /* Frameworks */,
@@ -150,6 +158,35 @@
 				F73B235A1952B7D70089A4D7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F73B23711952B9710089A4D7 /* WTEfficiencyClass */ = {
+			isa = PBXGroup;
+			children = (
+				F73B237A1952BBD20089A4D7 /* WTEMacro.h */,
+				F73B23721952B9710089A4D7 /* NSArray */,
+				F73B23761952BB900089A4D7 /* UIViewController */,
+			);
+			name = WTEfficiencyClass;
+			path = ../WTEfficiencyClass;
+			sourceTree = "<group>";
+		};
+		F73B23721952B9710089A4D7 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				F73B23731952B9710089A4D7 /* NSArray+WTE.h */,
+				F73B23741952B9710089A4D7 /* NSArray+WTE.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		F73B23761952BB900089A4D7 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F73B23771952BB900089A4D7 /* UIViewController+WTE.h */,
+				F73B23781952BB900089A4D7 /* UIViewController+WTE.m */,
+			);
+			path = UIViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F73B23751952B9710089A4D7 /* NSArray+WTE.m in Sources */,
 				F73B23491952B7D70089A4D7 /* ViewController.m in Sources */,
 				F73B23431952B7D70089A4D7 /* AppDelegate.m in Sources */,
+				F73B23791952BB900089A4D7 /* UIViewController+WTE.m in Sources */,
 				F73B233F1952B7D70089A4D7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
